@@ -75,13 +75,6 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/new/FND_Select_Decoder.v">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/sources_1/new/BCDTOFND.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -89,9 +82,43 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/new/FND_Select_Decoder.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/FullAdders.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Subtrects/Subtrects.srcs/sources_1/imports/new/FullAdders.v"/>
+          <Attr Name="ImportTime" Val="1664959547"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/HalfAdders.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Subtrects/Subtrects.srcs/sources_1/imports/new/HalfAdders.v"/>
+          <Attr Name="ImportTime" Val="1664952353"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/new/subtrects.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Subtrects/Subtrects.srcs/sources_1/new/subtrects.v"/>
+          <Attr Name="ImportTime" Val="1664954654"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="BCDTOFND"/>
+        <Option Name="TopModule" Val="subtrects"/>
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
